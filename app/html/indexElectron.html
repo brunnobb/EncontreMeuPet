@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encontre Meu Pet</title>
+</head>
+<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDzKOlYygvi9Hos9VN-Lv9LvzC6gSkNkdU",
+    authDomain: "findmypetbr.firebaseapp.com",
+    databaseURL: "https://findmypetbr.firebaseio.com",
+    projectId: "findmypetbr",
+    storageBucket: "findmypetbr.appspot.com",
+    messagingSenderId: "102974919064"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<body>
+
+      <div id='app' class=fill-parent>
+
+      </div>
+</body>
+
+<script>
+    require('./bundle.js');
+    require('./localScripts.js');
+</script>
+
+</html>

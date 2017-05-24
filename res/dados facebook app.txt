@@ -1,0 +1,2 @@
+facebook app id : 1472628612759276
+facebook app secret : 4e48f8c75206ee80effca1616dd6e08c
